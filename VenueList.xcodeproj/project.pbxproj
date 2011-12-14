@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21B66A2A1494E740002FD83D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B66A291494E740002FD83D /* CoreLocation.framework */; };
+		21CFDD4C146D47F5009D9240 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CFDD4B146D47F5009D9240 /* UIKit.framework */; };
+		21CFDD4E146D47F5009D9240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CFDD4D146D47F5009D9240 /* Foundation.framework */; };
+		21CFDD50146D47F5009D9240 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CFDD4F146D47F5009D9240 /* CoreGraphics.framework */; };
+		21CFDD56146D47F5009D9240 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21CFDD54146D47F5009D9240 /* InfoPlist.strings */; };
+		21CFDD58146D47F5009D9240 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CFDD57146D47F5009D9240 /* main.m */; };
+		21CFDD5C146D47F5009D9240 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CFDD5B146D47F5009D9240 /* AppDelegate.m */; };
+		21CFDD62146D47F5009D9240 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21CFDD60146D47F5009D9240 /* ViewController.xib */; };
+		21CFDD6A146D488C009D9240 /* VenueListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CFDD69146D488C009D9240 /* VenueListTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21B66A291494E740002FD83D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		21CFDD47146D47F5009D9240 /* VenueList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenueList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CFDD4B146D47F5009D9240 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		21CFDD4D146D47F5009D9240 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21CFDD4F146D47F5009D9240 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		21CFDD53146D47F5009D9240 /* VenueList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VenueList-Info.plist"; sourceTree = "<group>"; };
+		21CFDD55146D47F5009D9240 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21CFDD57146D47F5009D9240 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21CFDD59146D47F5009D9240 /* VenueList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VenueList-Prefix.pch"; sourceTree = "<group>"; };
+		21CFDD5A146D47F5009D9240 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21CFDD5B146D47F5009D9240 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21CFDD61146D47F5009D9240 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		21CFDD68146D488C009D9240 /* VenueListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueListTableViewController.h; sourceTree = "<group>"; };
+		21CFDD69146D488C009D9240 /* VenueListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueListTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21CFDD44146D47F5009D9240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B66A2A1494E740002FD83D /* CoreLocation.framework in Frameworks */,
+				21CFDD4C146D47F5009D9240 /* UIKit.framework in Frameworks */,
+				21CFDD4E146D47F5009D9240 /* Foundation.framework in Frameworks */,
+				21CFDD50146D47F5009D9240 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21CFDD3C146D47F4009D9240 = {
+			isa = PBXGroup;
+			children = (
+				21CFDD51146D47F5009D9240 /* VenueList */,
+				21CFDD4A146D47F5009D9240 /* Frameworks */,
+				21CFDD48146D47F5009D9240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21CFDD48146D47F5009D9240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21CFDD47146D47F5009D9240 /* VenueList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21CFDD4A146D47F5009D9240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21B66A291494E740002FD83D /* CoreLocation.framework */,
+				21CFDD4B146D47F5009D9240 /* UIKit.framework */,
+				21CFDD4D146D47F5009D9240 /* Foundation.framework */,
+				21CFDD4F146D47F5009D9240 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21CFDD51146D47F5009D9240 /* VenueList */ = {
+			isa = PBXGroup;
+			children = (
+				21CFDD5A146D47F5009D9240 /* AppDelegate.h */,
+				21CFDD5B146D47F5009D9240 /* AppDelegate.m */,
+				21CFDD68146D488C009D9240 /* VenueListTableViewController.h */,
+				21CFDD69146D488C009D9240 /* VenueListTableViewController.m */,
+				21CFDD60146D47F5009D9240 /* ViewController.xib */,
+				21CFDD52146D47F5009D9240 /* Supporting Files */,
+			);
+			path = VenueList;
+			sourceTree = "<group>";
+		};
+		21CFDD52146D47F5009D9240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21CFDD53146D47F5009D9240 /* VenueList-Info.plist */,
+				21CFDD54146D47F5009D9240 /* InfoPlist.strings */,
+				21CFDD57146D47F5009D9240 /* main.m */,
+				21CFDD59146D47F5009D9240 /* VenueList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21CFDD46146D47F5009D9240 /* VenueList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21CFDD65146D47F5009D9240 /* Build configuration list for PBXNativeTarget "VenueList" */;
+			buildPhases = (
+				21CFDD43146D47F5009D9240 /* Sources */,
+				21CFDD44146D47F5009D9240 /* Frameworks */,
+				21CFDD45146D47F5009D9240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VenueList;
+			productName = VenueList;
+			productReference = 21CFDD47146D47F5009D9240 /* VenueList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21CFDD3E146D47F4009D9240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 21CFDD41146D47F4009D9240 /* Build configuration list for PBXProject "VenueList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21CFDD3C146D47F4009D9240;
+			productRefGroup = 21CFDD48146D47F5009D9240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21CFDD46146D47F5009D9240 /* VenueList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21CFDD45146D47F5009D9240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CFDD56146D47F5009D9240 /* InfoPlist.strings in Resources */,
+				21CFDD62146D47F5009D9240 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21CFDD43146D47F5009D9240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CFDD58146D47F5009D9240 /* main.m in Sources */,
+				21CFDD5C146D47F5009D9240 /* AppDelegate.m in Sources */,
+				21CFDD6A146D488C009D9240 /* VenueListTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21CFDD54146D47F5009D9240 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21CFDD55146D47F5009D9240 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		21CFDD60146D47F5009D9240 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21CFDD61146D47F5009D9240 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21CFDD63146D47F5009D9240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21CFDD64146D47F5009D9240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21CFDD66146D47F5009D9240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VenueList/VenueList-Prefix.pch";
+				INFOPLIST_FILE = "VenueList/VenueList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		21CFDD67146D47F5009D9240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VenueList/VenueList-Prefix.pch";
+				INFOPLIST_FILE = "VenueList/VenueList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21CFDD41146D47F4009D9240 /* Build configuration list for PBXProject "VenueList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CFDD63146D47F5009D9240 /* Debug */,
+				21CFDD64146D47F5009D9240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21CFDD65146D47F5009D9240 /* Build configuration list for PBXNativeTarget "VenueList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CFDD66146D47F5009D9240 /* Debug */,
+				21CFDD67146D47F5009D9240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21CFDD3E146D47F4009D9240 /* Project object */;
+}
